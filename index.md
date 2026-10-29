@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Alexanderdumas的技术驿站
 ---
 
 ## 内容概要
