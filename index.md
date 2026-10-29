@@ -1,6 +1,4 @@
----
-layout: default
----
+# Alexander的技术驿站
 
 ## 内容概要
 
