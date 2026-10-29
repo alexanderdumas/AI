@@ -10,5 +10,5 @@
 - CPU SIMD 优化与性能测试
 
 ## 最新文章
-
+- [LLAMA.cpp 源码编译与 CUDA 环境搭建](llama.cpp-build.md)
 - [FAISS 源码编译与环境搭建](faiss-build.md)
