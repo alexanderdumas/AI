@@ -10,6 +10,7 @@
 - CPU SIMD 优化与性能测试
 
 ## 最新文章
+- [RAG 关键词高速检索方法](rag_keyword_search.md)
 - [LLAMA.cpp 源码编译与 CUDA 环境搭建](llama.cpp-build.md)
 - [FAISS 源码编译与环境搭建](faiss-build.md)
 - [基于KubeSphere部署redis集群](kube-redis-build.md)
