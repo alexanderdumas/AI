@@ -34,7 +34,7 @@ ls -l /etc/OpenCL/vendors/
 ## openCL执行图：ICD Loader 架构
 当在编译命令中写 -lOpenCL 时，连接器（ld）寻找的是libOpenCL.so，这个 libOpenCL.so 是一个通用中介代理（ICD Loader），它只提供标准的 OpenCL API 导出符号（如 clCreateContext、clEnqueueNDRangeKernel 等），本身不包含任何显卡硬件的执行代码。/etc/OpenCL/vendors/ 目录下放置的只是纯文本配置文件（扩展名为 .icd），里面记录了真正的硬件驱动库路径（如 /usr/lib/x86_64-linux-gnu/intel-opencl/libigdrcl.so）。当编译好的程序开始运行并调用第一个 OpenCL API 时，ICD Loader (libOpenCL.so) 才会去读取 /etc/OpenCL/vendors/ 目录下的 .icd 文件，根据文件里的路径使用 dlopen() 动态加载真实的 GPU 厂商驱动库。
 
-![架构图](/home/ai-robin/Downloads/model/openCL-icd.png)
+![架构图](openCL-icd.png)
 
 
 
