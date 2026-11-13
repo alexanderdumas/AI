@@ -28,7 +28,7 @@ ls -l /etc/OpenCL/vendors/
 ```bash
 ls -l /etc/OpenCL/vendors/
 ```
-得到：intel64.icd，这个是指向nvidia 显卡的libnvidia-opencl.so.1
+得到：nvidia.icd，这个是指向nvidia 显卡的libnvidia-opencl.so.1
 
 
 ## openCL执行图：ICD Loader 架构
