@@ -4,8 +4,12 @@
 
 ## **下载Intel MKL 组件，用于加速向量计算**
 
-详细参考这个地址:https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html?operatingsystem=linux&linux-install=apt，安装完成后会默认在系统的目录下：/opt/intel/oneapi
+详细参考这个地址:https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html?operatingsystem=linux&linux-install=apt
+
+安装完成后会默认在系统的目录下：/opt/intel/oneapi
+
 安装运行时：sudo apt install intel-oneapi-mkl
+
 安装开发和编译：sudo apt install intel-oneapi-mkl
 
 ## **下载faiss源码**
@@ -15,8 +19,12 @@
 ## **编译源码**
 
 这里使用CPU，avx2，intelMKL 库，详细过程
-使intelMKL 环境生效，执行：source /opt/intel/oneapi/setvars.sh
+使intelMKL 环境生效
+
+执行：source /opt/intel/oneapi/setvars.sh
+
 设置编译参数：
+
 mkdir build && cd build
 cmake .. \
 -DBLA_VENDOR=Intel10_64lp \
