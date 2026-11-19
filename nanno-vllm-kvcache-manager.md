@@ -3,7 +3,7 @@
 
 ## 核心结构
 ### Block块结构
-这个Block块是管理的物理块信息，包括块的ID，这个块相应的token列表。核心结构如下：
+这个Block块是物理块信息，包括块的ID，这个块相应的token列表。核心结构如下：
 ```python
 class Block:
 
