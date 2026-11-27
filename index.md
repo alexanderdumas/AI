@@ -7,7 +7,7 @@
 
 > 任何事情都应该尽可能简单，而不是稍微简单一点。
 >
->                       —— Albert Einstein（1879—1955）
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;—— Albert Einstein，理论物理学家，1879–1955
 
 ## 技术领域
 - C++ 与 Linux 系统开发
